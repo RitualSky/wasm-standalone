@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC51F2EF-B253-47EF-A4AE-696296CC7BE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6704764D-C113-43FD-925A-39BEFA7244B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui", "ui", "{4AB60018-8D08-4052-9E9C-205C07D369E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WASM.UI", "src\ui\WASM.UI\WASM.UI.csproj", "{CF00AEC0-3F59-47F4-B3CB-7059E3714ADB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{536A6E69-04CA-4F83-87F2-3738969ECF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WASM.API", "src\core\WASM.API\WASM.API.csproj", "{944A8E76-21A6-4FBB-AE16-E794983A99A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF00AEC0-3F59-47F4-B3CB-7059E3714ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF00AEC0-3F59-47F4-B3CB-7059E3714ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF00AEC0-3F59-47F4-B3CB-7059E3714ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF00AEC0-3F59-47F4-B3CB-7059E3714ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944A8E76-21A6-4FBB-AE16-E794983A99A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944A8E76-21A6-4FBB-AE16-E794983A99A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944A8E76-21A6-4FBB-AE16-E794983A99A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944A8E76-21A6-4FBB-AE16-E794983A99A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AB60018-8D08-4052-9E9C-205C07D369E8} = {BC51F2EF-B253-47EF-A4AE-696296CC7BE4}
+		{CF00AEC0-3F59-47F4-B3CB-7059E3714ADB} = {4AB60018-8D08-4052-9E9C-205C07D369E8}
+		{536A6E69-04CA-4F83-87F2-3738969ECF49} = {BC51F2EF-B253-47EF-A4AE-696296CC7BE4}
+		{944A8E76-21A6-4FBB-AE16-E794983A99A7} = {536A6E69-04CA-4F83-87F2-3738969ECF49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D9D1B2C-6E56-4C76-89F3-ED12B8175C75}
+	EndGlobalSection
+EndGlobal
